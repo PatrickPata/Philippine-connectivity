@@ -11,7 +11,9 @@ Each of the 36 data files are named according to larval type, simulation year, a
 
 The location of the reef IDs are stored in the files PH_reef_centroids_3776.csv for centroids and PH_reef_polygons_3776.wkt for polygons.
 
-For inquiries regarding the dataset please contact ppata@msi.upd.edu.ph.
+The file "Reef_clusters_per_minimum_cluster_size.csv" contain the cluster number at each minimum cluster size (MCS) computed using the dynamic tree cut algorithm. The rows are sorted according to the ReefID. A value of 0 indicates that the reef was not included in any cluster for a particular MCS value.
+
+For inquiries regarding the dataset please contact p.pata@oceans.ubc.ca.
 
 LICENSE:
 
